@@ -5,7 +5,7 @@
 This repository contains the complete workflow for analyzing the effects of climatic variables and air pollution on hospital discharges due to respiratory diseases in Costa Rica. The study employs Distributed Lag Nonlinear Models (DLNM) integrated with Generalized Linear Mixed Models (GLMM) to evaluate exposure-lag-response associations across climatic regions and subregions.
 
 ## Project Structure
-
+```
 DLNM-GLMM-health/
 ├── Data/
 │   ├── Shapefiles/          # Geographic data (e.g., IMN climate regions)
@@ -23,7 +23,7 @@ DLNM-GLMM-health/
 ├── .gitignore              # Standard git exclusions
 ├── .Rhistory               # R history file
 └── README.md               # Project description
-
+```
 
 
 ## Repository
