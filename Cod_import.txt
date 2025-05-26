@@ -1,0 +1,14 @@
+Abrir proyecto desde directorio
+Antes de iniciar: git pull origin main
+Una vez finalizados los cambios que me interesa actualizar:
+git add .
+
+Identificar un archivo que no quiero que se actualice en GitHub
+git rm --cached DLNM-GLMM-health.Rproj  
+git commit -m "Descripción clara de los cambios"
+git push origin main
+
+
+Si Git rechaza el push porque hay cambios en GitHub:
+git pull origin main --rebase
+git push origin main

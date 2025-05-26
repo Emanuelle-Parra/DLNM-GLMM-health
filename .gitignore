@@ -1,0 +1,11 @@
+# R and RStudio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+DLNM-GLMM-health.Rproj
+Cod_import
+Data/Shapefiles/.RDataTmp
+Data/Tables/CHIRTS_CIGEFI_week.RData
+Data/Tables/CHIRTS_CIGEFI_week_Subregion.RData
+.RDataTmp

@@ -1,0 +1,34 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.34.7-Prizren">
+  <identifier>Regiones Climáticas de Costa Rica</identifier>
+  <parentidentifier></parentidentifier>
+  <language></language>
+  <type>dataset</type>
+  <title>Regiones Climáticas de Costa Rica</title>
+  <abstract>Esta capa contiene las siete regiones climáticas de Costa Rica, propuestas por el Instituto Meteorológico Nacional.</abstract>
+  <keywords vocabulary="Buscar claves">
+    <keyword>Regiones</keyword>
+    <keyword>Clima</keyword>
+    <keyword>Costa Rica</keyword>
+    <keyword>IMN</keyword>
+  </keywords>
+  <links/>
+  <dates/>
+  <fees></fees>
+  <rights>Instituto Meteorológico Nacioanl</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4></proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent/>
+</qgis>
