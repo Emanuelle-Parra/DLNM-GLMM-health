@@ -217,7 +217,8 @@ cambia_puntos_subregiones <- function(bloque) {
     
     bloque_c <- bloque %>%
       left_join(distancias_long_pba, by = "codigo_grilla") %>%
-      mutate(distancia2 = aerosol * distancia / sum(distancia, na.rm = TRUE)) %>%
+      mutate(mutate(peso_inv = 1 / distancia,
+                    distancia2 = aerosol * peso_inv / sum(peso_inv, na.rm = TRUE))) %>%
       select(year, week, Subregion_climatica, distancia2) %>%
       group_by(Subregion_climatica) %>%
       summarise(distancia2 = sum(distancia2, na.rm = TRUE), .groups = "drop") %>%
